@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+     -webkit-box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+}
+
+body {
+    background-color: white;
+    color: #333;
+    font-family: 'Lato', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+header {
+    background-color: #01ae54;
+    z-index: 1000;
+}
+
+header .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #019046;
+    padding: 0.6vw 50px;
+    font-size: 0.75vw;
+    font-family: OpenSans-Regular, sans-serif;
+}
+
+header .menu a {
+    color: #ffffff;
+    margin-right: 1.2vw;
+}
+
+header .menu a:hover {
+    text-decoration: underline;
+    text-underline-color: white;
+}
+
+header .menu a:last-child {
+    margin-right: 0;
+}
+
+header .img-header {
+    display: flex;
+    flex-direction: row;
+    padding: 0 50px;
+    background-color: #01af55;
+    z-index: 1000;
+    align-items: center;
+    -moz-justify-content: space-between;
+    justify-content: space-between;
+    height: 75px;
+}
+
+header .img-header-b {
+    margin: 0 0 1.05vw;
+    -moz-margin: 1.05vw 0;
+}
+
+header .img-header img {
+    width: 260px;
+    height: 40px;
+}
+
+.myReviews {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 50px;
+}
+
+.myReviews h1 {
+    font-size: 25px;
+    text-align: leftle;
+    font-weight: bold;
+}
+
+.myReviews p {
+    font-size: 14px;
+    padding: 30px 0 40px;
+}
+
+.myReviews a {
+    text-decoration: underline;
+    color: #00a549;
+    cursor: pointer;
+}
+
+.allReviews {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid #cdcdcd;
+    padding: 30px 0;
+}
+
+.allReviews .img img {
+    width: 270px;
+    height: 155px;
+}
+
+.allReviews .divider {
+    padding: 0 60px;
+}
+
+.allReviews .info {
+    display: flex;
+    flex-direction: column;
+}
+
+.allReviews .info .infoLogo {
+    display: flex;
+    flex-direction: row;
+}
+
+.infoLogo .logoName {
+    color: #00af54;
+    font-size: 25px;
+    padding: 0 20px 0 0;
+}
+
+.infoLogo .cost {
+    color: black;
+    padding: 0 0 0 25px;
+    border-left: 2px solid #c2c2c2;
+    font-weight: bold;
+}
+
+.infoLogo span {
+    color: #00af54;
+    font-size: 17px;
+}
+.info p
+{
+    font-size: 15px;
+    text-align: left;
+    
+}
+.info p span
+{
+    font-weight: bold;
+}
+.info input
+{
+    background-color: #00af54;
+    color: white;
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Open Sans';
+    font-size: 16px;
+}
